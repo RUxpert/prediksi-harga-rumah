@@ -4,7 +4,9 @@ Aplikasi web untuk memprediksi harga rumah di wilayah Depok menggunakan model **
 
 ## Demo
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
+[![Open in Streamlit](https://img.shields.io/badge/Streamlit-Live_App-FF4B4B?logo=streamlit&logoColor=white)](https://regresio-harga-rumah.streamlit.app/)
+
+🔗 Live Demo: https://regresio-harga-rumah.streamlit.app/
 
 ## Fitur
 
@@ -41,8 +43,8 @@ Aplikasi web untuk memprediksi harga rumah di wilayah Depok menggunakan model **
 
 **1. Clone repository**
 ```bash
-git clone https://github.com/<username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/nandana05-tech/prediksi-harga-rumah.git
+cd prediksi-harga-rumah
 ```
 
 **2. Install dependensi**
@@ -56,13 +58,6 @@ streamlit run app.py
 ```
 
 Buka browser di `http://localhost:8501`
-
-## Deploy ke Streamlit Community Cloud
-
-1. Push repository ke GitHub
-2. Buka [share.streamlit.io](https://share.streamlit.io) dan login dengan GitHub
-3. Klik **New app** → pilih repository → set main file ke `app.py`
-4. Klik **Deploy**
 
 ## Dataset
 

@@ -1,0 +1,30 @@
+{
+  "saved_at": "2026-04-15T12:18:27.552358",
+  "features": [
+    "Kamar Tidur",
+    "Kamar Mandi",
+    "Garasi",
+    "Luas Tanah",
+    "Luas Bangunan"
+  ],
+  "target": "Harga",
+  "n_train": 13339,
+  "n_test": 3335,
+  "best_params": {
+    "n_estimators": 483,
+    "max_depth": 8,
+    "learning_rate": 0.034638570603233505,
+    "subsample": 0.6852147931410921,
+    "colsample_bytree": 0.8441279990225266,
+    "min_child_weight": 2,
+    "gamma": 0.002496483889227786,
+    "reg_alpha": 0.011072066254361062,
+    "reg_lambda": 0.18183199938865988
+  },
+  "metrics": {
+    "rmse": 301132090.7996077,
+    "mae": 196869065.78710645,
+    "mape": 16.53128124724324,
+    "r2": 0.8263701341828678
+  }
+}
